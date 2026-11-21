@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya - Kontak</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+  <header>
+  <div class="container navbar">
+    <h1>Muhammad Rofi Jawahiril Hudah</h1>
+    
+    <!-- Menu untuk Laptop / Layar Lebar -->
+    <nav class="menu-laptop">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="proyek.html">Proyek</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- Menu Tombol Buka-Tutup untuk Ponsel (Tantangan Modul) -->
+    <details class="menu-ponsel">
+      <summary>Menu</summary>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="proyek.html">Proyek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
+
+    <main>
+      <div class="container">
+        <section class="kartu">
+          <form>
+            <h2>Hubungi Saya</h2>
+            <p>Punya pertanyaan atau mau kolaborasi? Isi form berikut:</p>
+            
+            <p>
+              <label for="nama">Nama lengkap</label><br />
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Contoh: Ilyas Mutaharoh"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Contoh: pek.2888@gmail.com"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="hp">No telepon</label><br />
+              <input
+                type="tel"
+                id="hp"
+                name="hp"
+                placeholder="Contoh: 0812345678910"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="keperluan">Keperluan</label><br />
+              <select id="keperluan" name="keperluan" required>
+                <option value="">--Pilih keperluan--</option>
+                <option value="tanya">Tanya</option>
+                <option value="kolab">Kolaborasi</option>
+                <option value="saran">Saran</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="pesan">Pesan</label><br />
+              <textarea
+                id="pesan"
+                name="pesan"
+                rows="5"
+                cols="40"
+                placeholder="Tulis pesan anda di sini"
+                required
+              ></textarea>
+            </p>
+
+            <button type="submit">Kirim Pesan</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Kontak:
+        <a href="mailto:muhammadrofi600@gmail.com">muhammadrofi600@gmail.com</a> |
+        <a href="https://github.com/muhammadrofi600-dotcom" target="_blank">GitHub</a> |
+        <a href="https://www.youtube.com/@MuhammadRofi-y1f" target="_blank">YouTube</a>
+      </p>
+      <p>&copy; 2026 Muhammad Rofi J. H. Dibuat di kelas industri UBIG.</p>
+    </footer>
+  </body>
+</html>
